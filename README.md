@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Fish Species
+# Soccer Magazine
 
 # Built with
 - React.js
@@ -14,7 +14,7 @@ Visit live demo [here](Coming Soon...)
 To get a local copy up and running follow these simple example steps.
 
 - clone the repository by running
-``` git@github.com:levy002/fish_species.git ```
+``` https://github.com/levy002/soccer_magazine ```
 - navigate to the folder
 ``` cd <DIRECTORY> ```
 - Install packages
