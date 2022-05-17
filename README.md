@@ -9,10 +9,10 @@
 # Built with
 - React.js
 - Redux
-- Tailwind
+- Tailwind.CSS
 
 ## Live Demo
-Visit live demo [here](Coming Soon...)
+Visit live demo [here](https://soccer-magazine-202.netlify.app/)
 
 ## installation
 
