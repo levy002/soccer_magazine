@@ -43,3 +43,6 @@ Give a :star:️ if you like this project!
 ## Acknowledgments
 
 - Microverse offered guidance on how to make the project more professional
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
