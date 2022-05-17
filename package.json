@@ -46,10 +46,11 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.17.10",
+    "@babel/core": "^7.17.12",
     "@babel/eslint-parser": "^7.17.0",
-    "@babel/plugin-syntax-jsx": "^7.16.7",
-    "@babel/preset-react": "^7.16.7",
+    "@babel/plugin-syntax-jsx": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
     "autoprefixer": "^10.4.7",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
