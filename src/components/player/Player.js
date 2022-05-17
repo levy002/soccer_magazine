@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import DetailsButton from '../routes/DetailsButton';
 
 const Player = ({ name, photo, id }) => (
-  <div>
-    <img src={photo} alt="Player" />
-    <h4>{name}</h4>
+  <Link to={`/player/${id}`} className="relative flex flex-col gap-1">
+    <img src={photo} alt="Player" className="" />
+    <h4 className="text-purple-700 text-center">{name}</h4>
     <DetailsButton id={id} />
-  </div>
+  </Link>
 );
 
 Player.propTypes = {

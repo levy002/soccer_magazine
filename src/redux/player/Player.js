@@ -19,7 +19,6 @@ export const getPlayers = () => async (dispatch) => {
   //   },
   // })
   //   .then((response) => {
-  //     console.log(response.data.data);
   //     dispatch(getPlayersAction(response.data.data));
   //   });
 

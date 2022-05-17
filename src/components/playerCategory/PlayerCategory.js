@@ -10,14 +10,17 @@ const PlayerCategory = (props) => {
   };
 
   return (
-    <div>
+    <div className="flex items-center justify-center gap-3 p-1">
+      <p className="text-purple-700">Select Category:</p>
       <select
         onChange={(e) => handleSelectedCategory(e.target.value)}
+        className="p-2 px-3 rounded text-purple-700 bg-gray-100"
       >
         {categories.map((category) => (
           <option
             value={category}
             key={category}
+            className="text-purple-700"
           >
             {category}
           </option>

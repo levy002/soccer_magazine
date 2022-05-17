@@ -1,14 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import propTypes from 'prop-types';
 import { BiRightArrowCircle } from 'react-icons/bi';
 
 const DetailsButton = ({ id }) => (
-  <Link
-    to={`/player/${id}`}
+  <button
+    type="button"
+    id={id}
+    className="absolute top-0 right-0"
   >
-    <BiRightArrowCircle />
-  </Link>
+    <BiRightArrowCircle className="cursor-pointer" size={22} color="purple" />
+  </button>
 );
 
 DetailsButton.propTypes = {

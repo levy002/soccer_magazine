@@ -2,8 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getPlayers } from '../../redux/player/Player';
 import Player from './Player';
-import logo from '../../image/logo.jpeg';
 import PlayerCategory from '../playerCategory/PlayerCategory';
+import Header from '../header/Header';
 
 const PlayersList = () => {
   const players = useSelector((state) => state.players);
@@ -31,13 +31,11 @@ const PlayersList = () => {
 
   return (
     <>
-      <div>
-        <img src={logo} alt="Logo" />
-      </div>
+      <Header />
       <PlayerCategory handleCategory={handleCategory} />
-      <ul>
+      <ul className="flex flex-wrap flex-1 justify-around bg-gray-100 py-3">
         {filteredList.map((p) => (
-          <li key={p.id}>
+          <li key={p.id} className="border rounded my-2 shadow-2xl p-3 pb-2 bg-white hover:scale-110 transition ease-in-out delay-150">
             <Player
               photo={p.photo}
               name={p.name}
