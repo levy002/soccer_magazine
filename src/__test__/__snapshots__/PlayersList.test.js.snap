@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test PlayersList component check whether the component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="flex flex-col bg-header-background bg-cover h-52"
+      >
+        <div
+          class="flex justify-center items-center gap-2 h-full backdrop-blur-sm"
+        >
+          <img
+            alt="Logo"
+            class="rounded-full w-16 h-16"
+            src="logo.jpeg"
+          />
+          <h2
+            class="text-green-500 font-bold text-3xl"
+          >
+            Soccer
+             
+            <br />
+             
+            Magazine
+          </h2>
+        </div>
+      </header>
+      <div
+        class="flex items-center justify-center gap-3 p-1"
+      >
+        <p
+          class="text-purple-700"
+        >
+          Select Category:
+        </p>
+        <select
+          class="p-2 px-3 rounded text-purple-700 bg-gray-100"
+        >
+          <option
+            class="text-purple-700"
+            value="All"
+          >
+            All
+          </option>
+          <option
+            class="text-purple-700"
+            value="Defender"
+          >
+            Defender
+          </option>
+          <option
+            class="text-purple-700"
+            value="Midfielder"
+          >
+            Midfielder
+          </option>
+          <option
+            class="text-purple-700"
+            value="Goalkeeper"
+          >
+            Goalkeeper
+          </option>
+          <option
+            class="text-purple-700"
+            value="Forward"
+          >
+            Forward
+          </option>
+        </select>
+      </div>
+      <ul
+        class="flex flex-wrap flex-1 justify-around bg-gray-100 py-3"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="flex flex-col bg-header-background bg-cover h-52"
+    >
+      <div
+        class="flex justify-center items-center gap-2 h-full backdrop-blur-sm"
+      >
+        <img
+          alt="Logo"
+          class="rounded-full w-16 h-16"
+          src="logo.jpeg"
+        />
+        <h2
+          class="text-green-500 font-bold text-3xl"
+        >
+          Soccer
+           
+          <br />
+           
+          Magazine
+        </h2>
+      </div>
+    </header>
+    <div
+      class="flex items-center justify-center gap-3 p-1"
+    >
+      <p
+        class="text-purple-700"
+      >
+        Select Category:
+      </p>
+      <select
+        class="p-2 px-3 rounded text-purple-700 bg-gray-100"
+      >
+        <option
+          class="text-purple-700"
+          value="All"
+        >
+          All
+        </option>
+        <option
+          class="text-purple-700"
+          value="Defender"
+        >
+          Defender
+        </option>
+        <option
+          class="text-purple-700"
+          value="Midfielder"
+        >
+          Midfielder
+        </option>
+        <option
+          class="text-purple-700"
+          value="Goalkeeper"
+        >
+          Goalkeeper
+        </option>
+        <option
+          class="text-purple-700"
+          value="Forward"
+        >
+          Forward
+        </option>
+      </select>
+    </div>
+    <ul
+      class="flex flex-wrap flex-1 justify-around bg-gray-100 py-3"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
