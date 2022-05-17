@@ -9,25 +9,17 @@ export const getPlayersAction = (data) => ({
 });
 
 export const getPlayers = () => async (dispatch) => {
-  // await axios({
-  //   method: 'GET',
-  //   url: 'https://sportscore1.p.rapidapi.com/players',
-  //   params: { page: '1' },
-  //   headers: {
-  //     'X-RapidAPI-Host': 'sportscore1.p.rapidapi.com',
-  //     'X-RapidAPI-Key': 'b2defd825amsh9aed4fd86bf6a5cp14e615jsna4e01209f545',
-  //   },
-  // })
-  //   .then((response) => {
-  //     dispatch(getPlayersAction(response.data.data));
-  //   });
-
   await axios({
     method: 'GET',
-    url: 'http://localhost:8000/data',
+    url: 'https://sportscore1.p.rapidapi.com/players',
+    params: { page: '1' },
+    headers: {
+      'X-RapidAPI-Host': 'sportscore1.p.rapidapi.com',
+      'X-RapidAPI-Key': 'b2defd825amsh9aed4fd86bf6a5cp14e615jsna4e01209f545',
+    },
   })
     .then((response) => {
-      dispatch(getPlayersAction(response.data));
+      dispatch(getPlayersAction(response.data.data));
     });
 };
 
