@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Soccer Magazine
+  Soccer Magazine is a SPA website for all football fans. It enables users to access the full information about many different football players.
 
 <div>
   <img width="50%" src="./src/image/appShoot1.png" />
@@ -10,6 +11,7 @@
 - React.js
 - Redux
 - Tailwind
+- Jest
 
 ## Live Demo
 Visit live demo [here](Coming Soon...)
