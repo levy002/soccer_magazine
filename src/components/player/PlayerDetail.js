@@ -65,11 +65,4 @@ const PlayerDetail = () => {
   );
 };
 
-// PlayerDetail.propTypes = {
-//   name: propTypes.string.isRequired,
-//   age: propTypes.number.isRequired,
-//   country: propTypes.string.isRequired,
-//   photo: propTypes.string.isRequired,
-// };
-
 export default PlayerDetail;
