@@ -2,8 +2,8 @@
 # Soccer Magazine
 
 <div>
-  <img width="50%" src="./src/image/appShoot1.png" />
-  <img width="50%" src="./src/image/appShoot2.png" />
+  <img width="48%" src="./src/image/appShoot1.png" />
+  <img width="48%" src="./src/image/appShoot2.png" />
 </div>
 
 # Built with
