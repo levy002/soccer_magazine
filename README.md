@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Ukwishaka Levy**
 - GitHub: [@levy002](https://github.com/levy002)
 - Twitter: [@levy_ukwishaka](https://twitter.com/levy_ukwishaka)
-- LinkedIn: [Levy Ukwishaka](https://www.linkedin.com/in/levy-ukwishaka-405391223)
+- LinkedIn: [@levy-ukwishaka](https://www.linkedin.com/in/levy-ukwishaka/)
 
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
